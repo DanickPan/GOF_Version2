@@ -126,7 +126,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 336, y: -102}
+  m_AnchoredPosition: {x: 198, y: -184}
   m_SizeDelta: {x: -701, y: -452}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &40211357
@@ -319,8 +319,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1773709073}
-        m_MethodName: BtnPrev
+      - m_Target: {fileID: 1461195430}
+        m_MethodName: btnPreviousClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -731,8 +731,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 336, y: 81}
-  m_SizeDelta: {x: -701, y: -469}
+  m_AnchoredPosition: {x: 324, y: -184}
+  m_SizeDelta: {x: -701, y: -452}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &828595555
 MonoBehaviour:
@@ -1065,8 +1065,9 @@ GameObject:
   - component: {fileID: 1461195428}
   - component: {fileID: 1461195427}
   - component: {fileID: 1461195429}
+  - component: {fileID: 1461195430}
   m_Layer: 5
-  m_Name: ZonePayerScene
+  m_Name: ZonePlayerScene
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1091,7 +1092,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 17, y: -39}
+  m_AnchoredPosition: {x: 128, y: 45}
   m_SizeDelta: {x: -309, y: -326}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1461195427
@@ -1140,6 +1141,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   reactions:
   - {fileID: 230743359}
+--- !u!114 &1461195430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1461195425}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8113f0a1f2281da48a40d6f71807f55b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1467355677
 GameObject:
   m_ObjectHideFlags: 0
@@ -3985,8 +3997,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1773709073}
-        m_MethodName: BtnNext
+      - m_Target: {fileID: 1461195430}
+        m_MethodName: btnNextClicked
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
