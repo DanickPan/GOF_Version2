@@ -3,21 +3,21 @@ using UnityEngine;
 
 public class LastBoughtObject : MonoBehaviour 
 {
-	private Toggle lastActivated;
+	private Toggle toggle;
 
 	void Start()
 	{
-		lastActivated = null;
+		
 	}
 
 	public Toggle getLastBoughtObject()
 	{
-		return lastActivated;
+		return toggle;
 	}
 
 	public void newObjectBought(Toggle toggle)
 	{
-		lastActivated = toggle;
+		this.toggle = toggle;
 	}
 
 }

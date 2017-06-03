@@ -61,7 +61,7 @@ public class BuyObjectReaction : Reaction
 		{
 			if (index == -1 || !barsModifier.removeFromModifiers (index)) 
 			{
-				Debug.LogError ("failed to remove");
+				
 			}
 			index = -1;
 		}
