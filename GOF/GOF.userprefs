@@ -1,21 +1,18 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\ShopManagement\shopPersistency.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\Reactions\ReactionCollection.cs">
     <Files>
-      <File FileName="Assets\Home_Created\scripts\Reactions\ReactionCollection.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\WorkManagement\WorkManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\BarsControl\BarModifier.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\ShopManagement\shopTest.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Levels\LevelManagement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Levels\LevelObjective.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Levels\LevelChoiceButtons.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\BuyObjectReaction.cs" Line="32" Column="81" />
-      <File FileName="Assets\Home_Created\scripts\ShopManagement\shopPersistency.cs" Line="13" Column="85" />
+      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\BuyObjectReaction.cs" Line="69" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\Abstract\Reaction.cs" Line="18" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Reactions\ReactionCollection.cs" Line="33" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="C:\Users\Danick\Desktop\GOF_Version2\GOF\Assets\Home_Created\scripts\Levels\LevelManagement.cs" line="13" column="1" />
+      <Breakpoint file="C:\Users\Danick\Desktop\GOF_Version2\GOF\Assets\Home_Created\scripts\SceneControl\SceneController.cs" line="107" column="1" />
+      <Breakpoint file="C:\Users\Danick\Desktop\GOF_Version2\GOF\Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\ModifyBarsValueReaction.cs" line="22" column="1" />
+      <Breakpoint file="C:\Users\Danick\Desktop\GOF_Version2\GOF\Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\BuyObjectReaction.cs" line="64" column="1" />
+      <Breakpoint file="C:\Users\Danick\Desktop\GOF_Version2\GOF\Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\BuyObjectReaction.cs" line="31" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches>

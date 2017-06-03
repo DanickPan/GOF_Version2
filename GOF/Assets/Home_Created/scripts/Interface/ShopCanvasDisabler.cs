@@ -7,6 +7,22 @@ public class ShopCanvasDisabler: MonoBehaviour {
 	public GameObject statusCanvas;
 	public GameObject objectivesCanvas;
 
+	public void disableObjectives()
+	{
+		objectivesCanvas.SetActive (false);
+	}
+	public void enableObjectives()
+	{
+		objectivesCanvas.SetActive (true);
+	}
+	public bool isObjectivesDisabled()
+	{
+		if (objectivesCanvas.activeSelf) {
+			return false;
+		} else {
+			return true;
+		}
+	}
 
 	public void disableCanvas()
 	{
@@ -23,9 +39,9 @@ public class ShopCanvasDisabler: MonoBehaviour {
 	public bool isDisabled()
 	{
 		if (statusCanvas.activeSelf) {
-			return true;
-		} else {
 			return false;
+		} else {
+			return true;
 		}
 	}
 }

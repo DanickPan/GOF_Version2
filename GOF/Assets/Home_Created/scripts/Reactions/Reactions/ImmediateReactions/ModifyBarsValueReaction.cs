@@ -41,5 +41,9 @@ public class ModifyBarsValueReaction : Reaction
 			}
 		}
 	}
+	public int getModifierIndex()
+	{
+		return index;
+	}
 
 }

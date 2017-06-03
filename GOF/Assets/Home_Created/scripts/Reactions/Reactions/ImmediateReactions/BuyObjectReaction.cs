@@ -10,12 +10,19 @@ public class BuyObjectReaction : Reaction
 	public Toggle toggle;
 	public shopConditionsManager shopConditionsManager;
 	public Condition linkedCondition;
+	public string modifierDescription;
+	public Slider moneyModifierSlider;
+	public Slider ecoModifierSlider;
+	public Slider comfortModifierSlider;
 
+	private int index = -1;
+	private BarModifier barsModifier;
 	private MoneyController moneyController;
 
 	protected override void SpecificInit ()
 	{
 		moneyController = FindObjectOfType<MoneyController> ();
+		barsModifier = FindObjectOfType<BarModifier> ();
 	}
 
 	protected override void ImmediateReaction ()
@@ -23,24 +30,40 @@ public class BuyObjectReaction : Reaction
 
 		if (toggle.isOn) 
 		{
-			if (moneyController.buyShopObject (objectPrize)) 
-			{				
+			if (moneyController.buyShopObject (objectPrize)) {				
 				shopConditionsManager.onPurchase (linkedCondition);
 				lastObject.newObjectBought (toggle);
-			} else 
+				if (index == -1) 
+				{
+					index = barsModifier.addToModifiers (new Modifier (modifierDescription, moneyModifierSlider.value, ecoModifierSlider.value, comfortModifierSlider.value));
+				} 
+				else 
+				{
+					Debug.LogError ("an object was already added");
+				}
+			} 
+			else 
 			{
-				toggle.onValueChanged.SetPersistentListenerState(0,UnityEventCallState.Off);
+				toggle.onValueChanged.SetPersistentListenerState (0, UnityEventCallState.Off);
 				toggle.isOn = false;
-				toggle.onValueChanged.SetPersistentListenerState(0,UnityEventCallState.RuntimeOnly);
+				toggle.onValueChanged.SetPersistentListenerState (0, UnityEventCallState.RuntimeOnly);
 
 				if (lastObject.getLastBoughtObject () != null) 
 				{
-					lastObject.getLastBoughtObject().onValueChanged.SetPersistentListenerState(0,UnityEventCallState.Off);
-					lastObject.getLastBoughtObject().isOn = true;
-					lastObject.getLastBoughtObject().onValueChanged.SetPersistentListenerState(0,UnityEventCallState.RuntimeOnly);
+					lastObject.getLastBoughtObject ().onValueChanged.SetPersistentListenerState (0, UnityEventCallState.Off);
+					lastObject.getLastBoughtObject ().isOn = true;
+					lastObject.getLastBoughtObject ().onValueChanged.SetPersistentListenerState (0, UnityEventCallState.RuntimeOnly);
 				}
 
 			}
+		} 
+		else 
+		{
+			if (index == -1 || !barsModifier.removeFromModifiers (index)) 
+			{
+				Debug.LogError ("failed to remove");
+			}
+			index = -1;
 		}
 
 	}

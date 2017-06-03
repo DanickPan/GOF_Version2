@@ -176,6 +176,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 1608628244}
   linkedCondition: {fileID: 114117292589539374, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: heatPumpHeating
+  moneyModifierSlider: {fileID: 1974603423}
+  ecoModifierSlider: {fileID: 645588954}
+  comfortModifierSlider: {fileID: 1467714430}
 --- !u!1 &10801051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1094,7 +1098,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 662054674}
   - {fileID: 1105838445}
 --- !u!114 &52083355
 MonoBehaviour:
@@ -1280,22 +1283,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 66152742}
---- !u!114 &68302554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 555085308}
-  modifierDescription: microWaveOven
-  moneyModifierSlider: {fileID: 1669475255}
-  ecoModifierSlider: {fileID: 1019080407}
-  comfortModifierSlider: {fileID: 1855404662}
 --- !u!1 &68483046
 GameObject:
   m_ObjectHideFlags: 0
@@ -2746,22 +2733,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &156692537
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 359772134}
-  modifierDescription: ledLight
-  moneyModifierSlider: {fileID: 1177872530}
-  ecoModifierSlider: {fileID: 1414365367}
-  comfortModifierSlider: {fileID: 2036815422}
 --- !u!1 &158051962
 GameObject:
   m_ObjectHideFlags: 0
@@ -3257,6 +3228,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 1137251271}
   linkedCondition: {fileID: 114279642283691070, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: woodCooker
+  moneyModifierSlider: {fileID: 1774181487}
+  ecoModifierSlider: {fileID: 337958815}
+  comfortModifierSlider: {fileID: 408649151}
 --- !u!1 &189944219
 GameObject:
   m_ObjectHideFlags: 0
@@ -3793,7 +3768,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 717654506}
   - {fileID: 1456432864}
 --- !u!114 &212866895
 MonoBehaviour:
@@ -4131,7 +4105,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1370660976}
   - {fileID: 1752457741}
 --- !u!114 &248212645
 MonoBehaviour:
@@ -4424,22 +4397,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 254513536}
---- !u!114 &254971832
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 817414989}
-  modifierDescription: externIsolation
-  moneyModifierSlider: {fileID: 1614800653}
-  ecoModifierSlider: {fileID: 995890910}
-  comfortModifierSlider: {fileID: 475638048}
 --- !u!1 &267176292
 GameObject:
   m_ObjectHideFlags: 0
@@ -4614,22 +4571,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &273095053
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 561541431}
-  modifierDescription: fuelWaterHeater
-  moneyModifierSlider: {fileID: 1187708133}
-  ecoModifierSlider: {fileID: 135388252}
-  comfortModifierSlider: {fileID: 1916643398}
 --- !u!1 &279878236
 GameObject:
   m_ObjectHideFlags: 0
@@ -5643,22 +5584,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 322091410}
---- !u!114 &326792303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 1649523170}
-  modifierDescription: electricOven
-  moneyModifierSlider: {fileID: 654525904}
-  ecoModifierSlider: {fileID: 2118444835}
-  comfortModifierSlider: {fileID: 369321149}
 --- !u!1 &335271794
 GameObject:
   m_ObjectHideFlags: 0
@@ -6192,7 +6117,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 156692537}
   - {fileID: 1271427202}
 --- !u!114 &359772137
 MonoBehaviour:
@@ -7123,7 +7047,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 2129927278}
   - {fileID: 2031192481}
 --- !u!114 &411570823
 MonoBehaviour:
@@ -7875,6 +7798,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 793161099}
   linkedCondition: {fileID: 114785595945802816, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: gasCooker
+  moneyModifierSlider: {fileID: 1460245858}
+  ecoModifierSlider: {fileID: 511266079}
+  comfortModifierSlider: {fileID: 785109504}
 --- !u!1 &493346566
 GameObject:
   m_ObjectHideFlags: 0
@@ -8433,7 +8360,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1769198010}
   - {fileID: 1026868038}
 --- !u!114 &530361959
 MonoBehaviour:
@@ -8841,7 +8767,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 68302554}
   - {fileID: 818537008}
 --- !u!114 &555085311
 MonoBehaviour:
@@ -9077,7 +9002,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 273095053}
   - {fileID: 1048344945}
 --- !u!114 &561541434
 MonoBehaviour:
@@ -9934,22 +9858,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 1424267178}
   linkedCondition: {fileID: 114359895970179428, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
---- !u!114 &595109705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 793161098}
-  modifierDescription: gasCooker
-  moneyModifierSlider: {fileID: 1460245858}
-  ecoModifierSlider: {fileID: 511266079}
-  comfortModifierSlider: {fileID: 785109504}
+  modifierDescription: mediumMultimedia
+  moneyModifierSlider: {fileID: 1652758612}
+  ecoModifierSlider: {fileID: 189944221}
+  comfortModifierSlider: {fileID: 1787430133}
 --- !u!1 &595658440
 GameObject:
   m_ObjectHideFlags: 0
@@ -10726,38 +10638,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &662054674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 52083352}
-  modifierDescription: internIsolation
-  moneyModifierSlider: {fileID: 1950317939}
-  ecoModifierSlider: {fileID: 78096223}
-  comfortModifierSlider: {fileID: 1349285208}
---- !u!114 &675407601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 1137251270}
-  modifierDescription: woodCooker
-  moneyModifierSlider: {fileID: 1774181487}
-  ecoModifierSlider: {fileID: 337958815}
-  comfortModifierSlider: {fileID: 408649151}
 --- !u!1 &683627336
 GameObject:
   m_ObjectHideFlags: 0
@@ -10951,7 +10831,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 790439796}
   - {fileID: 1899214912}
 --- !u!114 &685337346
 MonoBehaviour:
@@ -11222,6 +11101,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 817414990}
   linkedCondition: {fileID: 114464465273519874, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: externIsolation
+  moneyModifierSlider: {fileID: 1614800653}
+  ecoModifierSlider: {fileID: 995890910}
+  comfortModifierSlider: {fileID: 475638048}
 --- !u!1 &704628204
 GameObject:
   m_ObjectHideFlags: 0
@@ -11360,22 +11243,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &717654506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 212866893}
-  modifierDescription: largeMultimedia
-  moneyModifierSlider: {fileID: 267176294}
-  ecoModifierSlider: {fileID: 574720402}
-  comfortModifierSlider: {fileID: 730361567}
 --- !u!1 &718020401
 GameObject:
   m_ObjectHideFlags: 0
@@ -11461,6 +11328,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 1557322801}
   linkedCondition: {fileID: 114067828586161860, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: simpleMultimedia
+  moneyModifierSlider: {fileID: 1710108723}
+  ecoModifierSlider: {fileID: 1809616463}
+  comfortModifierSlider: {fileID: 27059604}
 --- !u!1 &723737429
 GameObject:
   m_ObjectHideFlags: 0
@@ -12808,22 +12679,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 785109502}
---- !u!114 &790439796
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 685337344}
-  modifierDescription: doubleIsolation
-  moneyModifierSlider: {fileID: 1166492299}
-  ecoModifierSlider: {fileID: 1857664916}
-  comfortModifierSlider: {fileID: 1634115305}
 --- !u!1 &793161096
 GameObject:
   m_ObjectHideFlags: 0
@@ -12976,7 +12831,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 595109705}
   - {fileID: 490916290}
 --- !u!114 &793161101
 MonoBehaviour:
@@ -13077,6 +12931,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 1121908747}
   linkedCondition: {fileID: 114007220300094258, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: electricCooker
+  moneyModifierSlider: {fileID: 1461751903}
+  ecoModifierSlider: {fileID: 1119663229}
+  comfortModifierSlider: {fileID: 1627586102}
 --- !u!1 &812202844
 GameObject:
   m_ObjectHideFlags: 0
@@ -13367,7 +13225,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 254971832}
   - {fileID: 703254151}
 --- !u!114 &817414992
 MonoBehaviour:
@@ -13476,6 +13333,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 555085309}
   linkedCondition: {fileID: 114674272567270672, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: microWaveOven
+  moneyModifierSlider: {fileID: 1669475255}
+  ecoModifierSlider: {fileID: 1019080407}
+  comfortModifierSlider: {fileID: 1855404662}
 --- !u!1 &822118798
 GameObject:
   m_ObjectHideFlags: 0
@@ -14484,6 +14345,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 1882448527}
   linkedCondition: {fileID: 114530615477572274, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: woodWaterHeater
+  moneyModifierSlider: {fileID: 1081140550}
+  ecoModifierSlider: {fileID: 1082676770}
+  comfortModifierSlider: {fileID: 1346917651}
 --- !u!1 &880775061
 GameObject:
   m_ObjectHideFlags: 0
@@ -14781,6 +14646,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 1649523169}
   linkedCondition: {fileID: 114851245668720206, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: electricOven
+  moneyModifierSlider: {fileID: 654525904}
+  ecoModifierSlider: {fileID: 2118444835}
+  comfortModifierSlider: {fileID: 369321149}
 --- !u!1 &905020817
 GameObject:
   m_ObjectHideFlags: 0
@@ -14832,6 +14701,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 1160268416}
   linkedCondition: {fileID: 114799340083980716, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: panelWaterHeater
+  moneyModifierSlider: {fileID: 207549078}
+  ecoModifierSlider: {fileID: 728760109}
+  comfortModifierSlider: {fileID: 2011949363}
 --- !u!1 &911669681
 GameObject:
   m_ObjectHideFlags: 0
@@ -17363,22 +17236,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 530361957}
   linkedCondition: {fileID: 114669506197589680, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
---- !u!114 &1030746327
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 1121908748}
-  modifierDescription: electricCooker
-  moneyModifierSlider: {fileID: 1461751903}
-  ecoModifierSlider: {fileID: 1119663229}
-  comfortModifierSlider: {fileID: 1627586102}
+  modifierDescription: halogenLight
+  moneyModifierSlider: {fileID: 1671919906}
+  ecoModifierSlider: {fileID: 1522691425}
+  comfortModifierSlider: {fileID: 1238428715}
 --- !u!1 &1032275946
 GameObject:
   m_ObjectHideFlags: 0
@@ -17606,6 +17467,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 561541432}
   linkedCondition: {fileID: 114886392136716610, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: fuelWaterHeater
+  moneyModifierSlider: {fileID: 1187708133}
+  ecoModifierSlider: {fileID: 135388252}
+  comfortModifierSlider: {fileID: 1916643398}
 --- !u!1 &1048423775
 GameObject:
   m_ObjectHideFlags: 0
@@ -18691,6 +18556,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 52083353}
   linkedCondition: {fileID: 114270425875126340, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: internIsolation
+  moneyModifierSlider: {fileID: 1950317939}
+  ecoModifierSlider: {fileID: 78096223}
+  comfortModifierSlider: {fileID: 1349285208}
 --- !u!1 &1111915788
 GameObject:
   m_ObjectHideFlags: 0
@@ -19147,7 +19016,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1030746327}
   - {fileID: 806834502}
 --- !u!114 &1121908750
 MonoBehaviour:
@@ -19419,7 +19287,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 675407601}
   - {fileID: 188407066}
 --- !u!114 &1137251273
 MonoBehaviour:
@@ -19791,7 +19658,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1986242083}
   - {fileID: 905685925}
 --- !u!114 &1160268418
 MonoBehaviour:
@@ -21231,22 +21097,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1256588848
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 1557322800}
-  modifierDescription: simpleMultimedia
-  moneyModifierSlider: {fileID: 1710108723}
-  ecoModifierSlider: {fileID: 1809616463}
-  comfortModifierSlider: {fileID: 27059604}
 --- !u!1 &1256685028
 GameObject:
   m_ObjectHideFlags: 0
@@ -21574,6 +21424,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 359772135}
   linkedCondition: {fileID: 114959788283693394, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: ledLight
+  moneyModifierSlider: {fileID: 1177872530}
+  ecoModifierSlider: {fileID: 1414365367}
+  comfortModifierSlider: {fileID: 2036815422}
 --- !u!1 &1282333565
 GameObject:
   m_ObjectHideFlags: 0
@@ -22295,22 +22149,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1317928465}
---- !u!114 &1322805488
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 1689913407}
-  modifierDescription: fuelHeating
-  moneyModifierSlider: {fileID: 1969287792}
-  ecoModifierSlider: {fileID: 1263203857}
-  comfortModifierSlider: {fileID: 300028631}
 --- !u!1 &1324841710
 GameObject:
   m_ObjectHideFlags: 0
@@ -23095,22 +22933,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1368924462}
---- !u!114 &1370660976
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 248212643}
-  modifierDescription: woodHeating
-  moneyModifierSlider: {fileID: 252281860}
-  ecoModifierSlider: {fileID: 1431388216}
-  comfortModifierSlider: {fileID: 82755674}
 --- !u!1 &1379167942
 GameObject:
   m_ObjectHideFlags: 0
@@ -23317,22 +23139,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1391239759
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 1882448528}
-  modifierDescription: woodWaterHeater
-  moneyModifierSlider: {fileID: 1081140550}
-  ecoModifierSlider: {fileID: 1082676770}
-  comfortModifierSlider: {fileID: 1346917651}
 --- !u!1 &1394872883
 GameObject:
   m_ObjectHideFlags: 0
@@ -24224,7 +24030,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1947199408}
   - {fileID: 593928473}
 --- !u!114 &1424267180
 MonoBehaviour:
@@ -24561,6 +24366,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 212866892}
   linkedCondition: {fileID: 114996930909448140, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: largeMultimedia
+  moneyModifierSlider: {fileID: 267176294}
+  ecoModifierSlider: {fileID: 574720402}
+  comfortModifierSlider: {fileID: 730361567}
 --- !u!1 &1460245856
 GameObject:
   m_ObjectHideFlags: 0
@@ -26506,7 +26315,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1256588848}
   - {fileID: 723683735}
 --- !u!114 &1557322803
 MonoBehaviour:
@@ -26539,6 +26347,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 1689913408}
   linkedCondition: {fileID: 114613532173838470, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: fuelHeating
+  moneyModifierSlider: {fileID: 1969287792}
+  ecoModifierSlider: {fileID: 1263203857}
+  comfortModifierSlider: {fileID: 300028631}
 --- !u!1 &1569589655
 GameObject:
   m_ObjectHideFlags: 0
@@ -27279,7 +27091,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1727762131}
   - {fileID: 6930835}
 --- !u!114 &1608628246
 MonoBehaviour:
@@ -27920,22 +27731,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1638358247}
---- !u!114 &1641265121
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 2001892587}
-  modifierDescription: woodOven
-  moneyModifierSlider: {fileID: 2011883037}
-  ecoModifierSlider: {fileID: 1950984405}
-  comfortModifierSlider: {fileID: 755222802}
 --- !u!1 &1649523167
 GameObject:
   m_ObjectHideFlags: 0
@@ -28088,7 +27883,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 326792303}
   - {fileID: 902674840}
 --- !u!114 &1649523172
 MonoBehaviour:
@@ -28983,7 +28777,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1322805488}
   - {fileID: 1560512286}
 --- !u!114 &1689913410
 MonoBehaviour:
@@ -29556,22 +29349,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1727762131
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 1608628243}
-  modifierDescription: heatPumpHeating
-  moneyModifierSlider: {fileID: 1974603423}
-  ecoModifierSlider: {fileID: 645588954}
-  comfortModifierSlider: {fileID: 1467714430}
 --- !u!1 &1728216941
 GameObject:
   m_ObjectHideFlags: 0
@@ -29801,6 +29578,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 248212642}
   linkedCondition: {fileID: 114430205281736696, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: woodHeating
+  moneyModifierSlider: {fileID: 252281860}
+  ecoModifierSlider: {fileID: 1431388216}
+  comfortModifierSlider: {fileID: 82755674}
 --- !u!1 &1752626495
 GameObject:
   m_ObjectHideFlags: 0
@@ -30039,22 +29820,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1769198010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 530361956}
-  modifierDescription: halogenLight
-  moneyModifierSlider: {fileID: 1671919906}
-  ecoModifierSlider: {fileID: 1522691425}
-  comfortModifierSlider: {fileID: 1238428715}
 --- !u!1 &1769623097
 GameObject:
   m_ObjectHideFlags: 0
@@ -32548,7 +32313,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1391239759}
   - {fileID: 879465435}
 --- !u!114 &1882448530
 MonoBehaviour:
@@ -32615,6 +32379,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 685337342}
   linkedCondition: {fileID: 114315027674158940, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: doubleIsolation
+  moneyModifierSlider: {fileID: 1166492299}
+  ecoModifierSlider: {fileID: 1857664916}
+  comfortModifierSlider: {fileID: 1634115305}
 --- !u!1 &1899490756
 GameObject:
   m_ObjectHideFlags: 0
@@ -33438,22 +33206,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1947152162}
---- !u!114 &1947199408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 1424267177}
-  modifierDescription: mediumMultimedia
-  moneyModifierSlider: {fileID: 1652758612}
-  ecoModifierSlider: {fileID: 189944221}
-  comfortModifierSlider: {fileID: 1787430133}
 --- !u!1 &1949510495
 GameObject:
   m_ObjectHideFlags: 0
@@ -34782,22 +34534,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1984089955}
---- !u!114 &1986242083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 1160268415}
-  modifierDescription: panelWaterHeater
-  moneyModifierSlider: {fileID: 207549078}
-  ecoModifierSlider: {fileID: 728760109}
-  comfortModifierSlider: {fileID: 2011949363}
 --- !u!1 &1989267028
 GameObject:
   m_ObjectHideFlags: 0
@@ -35018,7 +34754,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1641265121}
   - {fileID: 2128789798}
 --- !u!114 &2001892590
 MonoBehaviour:
@@ -35569,6 +35304,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 411570820}
   linkedCondition: {fileID: 114406084487780956, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
+  modifierDescription: incandescentLight
+  moneyModifierSlider: {fileID: 1949510497}
+  ecoModifierSlider: {fileID: 2071446585}
+  comfortModifierSlider: {fileID: 570252319}
 --- !u!1 &2033729807
 GameObject:
   m_ObjectHideFlags: 0
@@ -36720,22 +36459,10 @@ MonoBehaviour:
   shopConditionsManager: {fileID: 2001892588}
   linkedCondition: {fileID: 114812804824271698, guid: caaf50ae650376d46a396bcfb4f2af59,
     type: 2}
---- !u!114 &2129927278
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8bdd75c5aab6664f9ab4cf7c35500f0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toggle: {fileID: 411570821}
-  modifierDescription: incandescentLight
-  moneyModifierSlider: {fileID: 1949510497}
-  ecoModifierSlider: {fileID: 2071446585}
-  comfortModifierSlider: {fileID: 570252319}
+  modifierDescription: woodOven
+  moneyModifierSlider: {fileID: 2011883037}
+  ecoModifierSlider: {fileID: 1950984405}
+  comfortModifierSlider: {fileID: 755222802}
 --- !u!1 &2140341231
 GameObject:
   m_ObjectHideFlags: 0

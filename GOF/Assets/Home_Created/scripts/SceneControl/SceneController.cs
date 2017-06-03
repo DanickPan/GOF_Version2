@@ -98,13 +98,13 @@ public class SceneController : MonoBehaviour
 		cameraConfig = FindObjectOfType<CameraConfig> ();
 		loadCameraConfig (cameraConfig);
 		if (sceneName == shopSceneName) {
-			shopCanvasDisabler.disableCanvas ();
+			shopCanvasDisabler.disableObjectives ();
 		} 
 		else 
 		{
-			if (shopCanvasDisabler.isDisabled ()) 
+			if (shopCanvasDisabler.isObjectivesDisabled ()) 
 			{
-				shopCanvasDisabler.enableCanvas ();
+				shopCanvasDisabler.enableObjectives ();
 			}
 
 		}
