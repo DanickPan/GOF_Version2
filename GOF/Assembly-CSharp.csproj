@@ -85,6 +85,7 @@
      <Compile Include="Assets\Home_Created\scripts\SceneControl\SaveData.cs" />
      <Compile Include="Assets\Home_Created\scripts\SceneControl\Saver.cs" />
      <Compile Include="Assets\Home_Created\scripts\SceneControl\SceneController.cs" />
+     <Compile Include="Assets\Home_Created\scripts\ShopManagement\LastBoughtObject.cs" />
      <Compile Include="Assets\Home_Created\scripts\ShopManagement\ObjectPrize.cs" />
      <Compile Include="Assets\Home_Created\scripts\ShopManagement\shopConditionsManager.cs" />
      <Compile Include="Assets\Home_Created\scripts\ShopManagement\shopPersistency.cs" />

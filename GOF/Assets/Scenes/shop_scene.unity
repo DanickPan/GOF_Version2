@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1115099528}
   objectPrize: 1000
   toggle: {fileID: 1608628243}
   shopConditionsManager: {fileID: 1608628244}
@@ -3250,6 +3251,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1447406980}
   objectPrize: 500
   toggle: {fileID: 1137251270}
   shopConditionsManager: {fileID: 1137251271}
@@ -7867,6 +7869,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1447406980}
   objectPrize: 1000
   toggle: {fileID: 793161098}
   shopConditionsManager: {fileID: 793161099}
@@ -7915,6 +7918,7 @@ GameObject:
   m_Component:
   - component: {fileID: 494407736}
   - component: {fileID: 494407737}
+  - component: {fileID: 494407738}
   m_Layer: 5
   m_Name: Chauffe eau
   m_TagString: Untagged
@@ -7941,7 +7945,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1024, y: -750}
+  m_AnchoredPosition: {x: 1024, y: -834}
   m_SizeDelta: {x: 2048, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &494407737
@@ -7956,6 +7960,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 1
+--- !u!114 &494407738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 494407735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad307be05ed0ba4db73243cbc7be6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &503578820
 GameObject:
   m_ObjectHideFlags: 0
@@ -9913,6 +9928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1569589658}
   objectPrize: 1000
   toggle: {fileID: 1424267177}
   shopConditionsManager: {fileID: 1424267178}
@@ -11200,6 +11216,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1344037224}
   objectPrize: 1000
   toggle: {fileID: 817414989}
   shopConditionsManager: {fileID: 817414990}
@@ -11438,6 +11455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1569589658}
   objectPrize: 500
   toggle: {fileID: 1557322800}
   shopConditionsManager: {fileID: 1557322801}
@@ -12040,6 +12058,7 @@ GameObject:
   m_Component:
   - component: {fileID: 748892708}
   - component: {fileID: 748892709}
+  - component: {fileID: 748892710}
   m_Layer: 5
   m_Name: Lumiere
   m_TagString: Untagged
@@ -12066,7 +12085,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1024, y: -1350}
+  m_AnchoredPosition: {x: 1024, y: -1434}
   m_SizeDelta: {x: 2048, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &748892709
@@ -12081,6 +12100,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 1
+--- !u!114 &748892710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 748892707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad307be05ed0ba4db73243cbc7be6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &755222800
 GameObject:
   m_ObjectHideFlags: 0
@@ -13041,6 +13071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1447406980}
   objectPrize: 1500
   toggle: {fileID: 1121908748}
   shopConditionsManager: {fileID: 1121908747}
@@ -13439,6 +13470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1061711777}
   objectPrize: 500
   toggle: {fileID: 555085308}
   shopConditionsManager: {fileID: 555085309}
@@ -14446,6 +14478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 494407738}
   objectPrize: 1500
   toggle: {fileID: 1882448528}
   shopConditionsManager: {fileID: 1882448527}
@@ -14742,6 +14775,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1061711777}
   objectPrize: 1500
   toggle: {fileID: 1649523170}
   shopConditionsManager: {fileID: 1649523169}
@@ -14792,6 +14826,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 494407738}
   objectPrize: 500
   toggle: {fileID: 1160268415}
   shopConditionsManager: {fileID: 1160268416}
@@ -17322,6 +17357,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 748892710}
   objectPrize: 500
   toggle: {fileID: 530361956}
   shopConditionsManager: {fileID: 530361957}
@@ -17564,6 +17600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 494407738}
   objectPrize: 1000
   toggle: {fileID: 561541431}
   shopConditionsManager: {fileID: 561541432}
@@ -17858,6 +17895,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1061711775}
   - component: {fileID: 1061711776}
+  - component: {fileID: 1061711777}
   m_Layer: 5
   m_Name: Four
   m_TagString: Untagged
@@ -17884,7 +17922,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1024, y: -350}
+  m_AnchoredPosition: {x: 1024, y: -434}
   m_SizeDelta: {x: 2048, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1061711776
@@ -17899,6 +17937,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 1
+--- !u!114 &1061711777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1061711774}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad307be05ed0ba4db73243cbc7be6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1066724662
 GameObject:
   m_ObjectHideFlags: 0
@@ -18636,6 +18685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1344037224}
   objectPrize: 500
   toggle: {fileID: 52083352}
   shopConditionsManager: {fileID: 52083353}
@@ -18718,6 +18768,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1115099526}
   - component: {fileID: 1115099527}
+  - component: {fileID: 1115099528}
   m_Layer: 5
   m_Name: Chauffage
   m_TagString: Untagged
@@ -18744,7 +18795,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1024, y: -550}
+  m_AnchoredPosition: {x: 1024, y: -634}
   m_SizeDelta: {x: 2048, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1115099527
@@ -18759,6 +18810,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 1
+--- !u!114 &1115099528
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1115099525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad307be05ed0ba4db73243cbc7be6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1116087051
 GameObject:
   m_ObjectHideFlags: 0
@@ -21506,6 +21568,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 748892710}
   objectPrize: 1000
   toggle: {fileID: 359772134}
   shopConditionsManager: {fileID: 359772135}
@@ -22359,6 +22422,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1344037222}
   - component: {fileID: 1344037223}
+  - component: {fileID: 1344037224}
   m_Layer: 5
   m_Name: Isolation
   m_TagString: Untagged
@@ -22385,7 +22449,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1024, y: -150}
+  m_AnchoredPosition: {x: 1024, y: -234}
   m_SizeDelta: {x: 2048, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1344037223
@@ -22400,6 +22464,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 1
+--- !u!114 &1344037224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1344037221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad307be05ed0ba4db73243cbc7be6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1346917649
 GameObject:
   m_ObjectHideFlags: 0
@@ -24416,6 +24491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1447406978}
   - component: {fileID: 1447406979}
+  - component: {fileID: 1447406980}
   m_Layer: 5
   m_Name: Cuisiniere
   m_TagString: Untagged
@@ -24442,7 +24518,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1024, y: -950}
+  m_AnchoredPosition: {x: 1024, y: -1034}
   m_SizeDelta: {x: 2048, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1447406979
@@ -24457,6 +24533,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 1
+--- !u!114 &1447406980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1447406977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad307be05ed0ba4db73243cbc7be6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1456432864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24468,6 +24555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1569589658}
   objectPrize: 1500
   toggle: {fileID: 212866893}
   shopConditionsManager: {fileID: 212866892}
@@ -26445,6 +26533,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1115099528}
   objectPrize: 500
   toggle: {fileID: 1689913407}
   shopConditionsManager: {fileID: 1689913408}
@@ -26459,6 +26548,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1569589656}
   - component: {fileID: 1569589657}
+  - component: {fileID: 1569589658}
   m_Layer: 5
   m_Name: Multimedia
   m_TagString: Untagged
@@ -26485,7 +26575,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1024, y: -1150}
+  m_AnchoredPosition: {x: 1024, y: -1234}
   m_SizeDelta: {x: 2048, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1569589657
@@ -26500,6 +26590,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_AllowSwitchOff: 1
+--- !u!114 &1569589658
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1569589655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ad307be05ed0ba4db73243cbc7be6ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1580024368
 GameObject:
   m_ObjectHideFlags: 0
@@ -29694,6 +29795,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1115099528}
   objectPrize: 1500
   toggle: {fileID: 248212643}
   shopConditionsManager: {fileID: 248212642}
@@ -32507,6 +32609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1344037224}
   objectPrize: 1500
   toggle: {fileID: 685337344}
   shopConditionsManager: {fileID: 685337342}
@@ -35460,6 +35563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 748892710}
   objectPrize: 1500
   toggle: {fileID: 411570821}
   shopConditionsManager: {fileID: 411570820}
@@ -36610,6 +36714,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d92b5dc94e8387048831741514d92ea3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lastObject: {fileID: 1061711777}
   objectPrize: 1000
   toggle: {fileID: 2001892587}
   shopConditionsManager: {fileID: 2001892588}

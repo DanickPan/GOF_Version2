@@ -11,12 +11,12 @@ public class LevelManagement : MonoBehaviour {
 	void Start () 
 	{
 		levelChoice = 1;
-		levelObjectives [1].display();
+		levelObjectives [0].display();
 	}
 
 	public void next()
 	{
-		if (levelChoice < levelObjectives.Length) 
+		if (levelChoice < levelObjectives.Length - 1) 
 		{
 			levelChoice++;
 		}

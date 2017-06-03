@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 public class shopPersistency : MonoBehaviour {
@@ -7,6 +8,8 @@ public class shopPersistency : MonoBehaviour {
 	public Condition condition;
 	void Start () 
 	{
+		toggle.onValueChanged.SetPersistentListenerState(0,UnityEventCallState.Off);
 		toggle.isOn = condition.satisfied;
+		toggle.onValueChanged.SetPersistentListenerState(0,UnityEventCallState.RuntimeOnly);
 	}
 }

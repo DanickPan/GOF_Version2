@@ -349,7 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47b088a86708e049be2af52f7e7c204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MainMenu
+  sceneName: EndScreen
   startingPointInLoadedScene: StartingPoint
   playerSaveData: {fileID: 11400000, guid: b622814b449dbef46a8e2dc95c069c71, type: 2}
 --- !u!114 &99786932
@@ -1731,7 +1731,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47b088a86708e049be2af52f7e7c204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MainMenu
+  sceneName: EndScreen
   startingPointInLoadedScene: StartingPoint
   playerSaveData: {fileID: 11400000, guid: b622814b449dbef46a8e2dc95c069c71, type: 2}
 --- !u!1 &1055202243
@@ -2322,7 +2322,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47b088a86708e049be2af52f7e7c204, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: MainMenu
+  sceneName: EndScreen
   startingPointInLoadedScene: StartingPoint
   playerSaveData: {fileID: 11400000, guid: b622814b449dbef46a8e2dc95c069c71, type: 2}
 --- !u!1 &1241324392

@@ -1,10 +1,11 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
+using System.Reflection;
 
 public class BuyObjectReaction : Reaction 
 {
+	public LastBoughtObject lastObject;
 	public int objectPrize;
 	public Toggle toggle;
 	public shopConditionsManager shopConditionsManager;
@@ -25,10 +26,20 @@ public class BuyObjectReaction : Reaction
 			if (moneyController.buyShopObject (objectPrize)) 
 			{				
 				shopConditionsManager.onPurchase (linkedCondition);
+				lastObject.newObjectBought (toggle);
 			} else 
 			{
+				toggle.onValueChanged.SetPersistentListenerState(0,UnityEventCallState.Off);
 				toggle.isOn = false;
-				//text message : not enough money
+				toggle.onValueChanged.SetPersistentListenerState(0,UnityEventCallState.RuntimeOnly);
+
+				if (lastObject.getLastBoughtObject () != null) 
+				{
+					lastObject.getLastBoughtObject().onValueChanged.SetPersistentListenerState(0,UnityEventCallState.Off);
+					lastObject.getLastBoughtObject().isOn = true;
+					lastObject.getLastBoughtObject().onValueChanged.SetPersistentListenerState(0,UnityEventCallState.RuntimeOnly);
+				}
+
 			}
 		}
 

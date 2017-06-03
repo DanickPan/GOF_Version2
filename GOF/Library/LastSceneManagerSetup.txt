@@ -1,10 +1,10 @@
 sceneSetups:
 - path: Assets/Scenes/Persistent.unity
-  isLoaded: 0
-  isActive: 0
-- path: Assets/Scenes/EndScreen.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Scenes/EndScreen.unity
+  isLoaded: 0
+  isActive: 0
 - path: Assets/Scenes/First_level.unity
   isLoaded: 0
   isActive: 0
