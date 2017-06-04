@@ -1,12 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\BuyObjectReaction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\KitchenUsageReaction.cs">
     <Files>
-      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\BuyObjectReaction.cs" Line="64" Column="5" />
-      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\Abstract\Reaction.cs" Line="18" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Reactions\ReactionCollection.cs" Line="33" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Conditions\AllConditions.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\ShopManagement\LastBoughtObject.cs" Line="10" Column="3" />
+      <File FileName="Assets\Home_Created\scripts\WorkManagement\WorkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\RoomManagement\TimedBathroomUsage.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\RoomManagement\TimedKitchenUsage.cs" Line="25" Column="23" />
+      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\WorkReaction.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\bathroomUsageReaction.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\KitchenUsageReaction.cs" Line="5" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

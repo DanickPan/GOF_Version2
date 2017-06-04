@@ -30,7 +30,7 @@ public class MoneyController : MonoBehaviour {
 		{
 			veryLowReaction.React ();
 		}
-		if((int)value <= 0)
+		if((int)value < 0)
 		{
 			noMoreReaction.React ();
 		}

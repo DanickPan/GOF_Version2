@@ -73,12 +73,16 @@
      <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\DelayedReactions\GameObjectReaction.cs" />
      <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\DelayedReactions\ModifiersActivationReaction.cs" />
      <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\AudioReaction.cs" />
+     <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\BathroomUsageReaction.cs" />
      <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\BuyObjectReaction.cs" />
      <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\ConditionReaction.cs" />
+     <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\KitchenUsageReaction.cs" />
      <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\ModifyBarsValueReaction.cs" />
      <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\SceneReaction.cs" />
      <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\TextReaction.cs" />
      <Compile Include="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\WorkReaction.cs" />
+     <Compile Include="Assets\Home_Created\scripts\RoomManagement\TimedBathroomUsage.cs" />
+     <Compile Include="Assets\Home_Created\scripts\RoomManagement\TimedKitchenUsage.cs" />
      <Compile Include="Assets\Home_Created\scripts\SceneControl\DataResetter.cs" />
      <Compile Include="Assets\Home_Created\scripts\SceneControl\LevelTimer.cs" />
      <Compile Include="Assets\Home_Created\scripts\SceneControl\ResettableScriptableObject.cs" />

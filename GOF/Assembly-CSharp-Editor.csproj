@@ -57,10 +57,12 @@
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionCollectionEditor.cs" />
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\AnimationReactionEditor.cs" />
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\AudioReactionEditor.cs" />
+     <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\BathroomUsageReactionEditor.cs" />
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\BehaviourReactionEditor.cs" />
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\BuyObjectReactionEditor.cs" />
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\ConditionReactionEditor.cs" />
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\GameObjectReactionEditor.cs" />
+     <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\KitchenUsageReactionEditor.cs" />
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\ModifierActivationReactionEditor.cs" />
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\ModifyBarsValuesEditor.cs" />
      <Compile Include="Assets\Home_Created\scripts\Editor\ReactionEditors\ReactionEditor.cs" />
