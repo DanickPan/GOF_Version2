@@ -96,6 +96,11 @@
      <Compile Include="Assets\Home_Created\scripts\ShopManagement\shopPersistency.cs" />
      <Compile Include="Assets\Home_Created\scripts\ShopManagement\shopTest.cs" />
      <Compile Include="Assets\Home_Created\scripts\WorkManagement\WorkManager.cs" />
+     <Compile Include="Assets\Home_Created\scripts\objectives\IncreaseMoneyObjective.cs" />
+     <Compile Include="Assets\Home_Created\scripts\objectives\TimedRoomObjective.cs" />
+     <Compile Include="Assets\Home_Created\scripts\objectives\increaseEcoObjective.cs" />
+     <Compile Include="Assets\Home_Created\scripts\objectives\minimumComfortObjective.cs" />
+     <Compile Include="Assets\Home_Created\scripts\objectives\minimumEcoObjective.cs" />
      <Compile Include="Assets\Scripts\ChangeImageOnClick.cs" />
      <Compile Include="Assets\Scripts\ConfortBar.cs" />
      <Compile Include="Assets\Scripts\DollarBar.cs" />

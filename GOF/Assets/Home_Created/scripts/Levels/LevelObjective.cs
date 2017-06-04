@@ -16,9 +16,7 @@ public class LevelObjective : MonoBehaviour {
 			textToDisplay += " : ";
 			if (objectives [i].isAchieved) {
 				textToDisplay += "OK \n";
-			} else {
-				textToDisplay += "not OK \n";
-			}
+			} 
 		}
 
 		levelObjectivesText.text = textToDisplay;

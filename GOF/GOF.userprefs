@@ -1,13 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\KitchenUsageReaction.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\objectives\IncreaseMoneyObjective.cs">
     <Files>
       <File FileName="Assets\Home_Created\scripts\WorkManagement\WorkManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\RoomManagement\TimedKitchenUsage.cs" Line="1" Column="1" />
       <File FileName="Assets\Home_Created\scripts\RoomManagement\TimedBathroomUsage.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\RoomManagement\TimedKitchenUsage.cs" Line="25" Column="23" />
-      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\WorkReaction.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\bathroomUsageReaction.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\KitchenUsageReaction.cs" Line="5" Column="14" />
+      <File FileName="Assets\Home_Created\scripts\BarsControl\BarModifier.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\KitchenUsageReaction.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Levels\Objective.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Levels\LevelManagement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Levels\LevelObjective.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\objectives\increaseEcoObjective.cs" Line="25" Column="3" />
+      <File FileName="Assets\Home_Created\scripts\objectives\IncreaseMoneyObjective.cs" Line="8" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

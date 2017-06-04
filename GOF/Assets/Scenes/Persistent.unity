@@ -494,6 +494,48 @@ Transform:
   m_Father: {fileID: 326792305}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &203675696
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 203675697}
+  - component: {fileID: 203675698}
+  m_Layer: 0
+  m_Name: Objective2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &203675697
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 203675696}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1132667413}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &203675698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 203675696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b180d59761ffea4693ea401582a3576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAchieved: 0
+  text: finish with at least 300 in comfort
 --- !u!1 &205265250
 GameObject:
   m_ObjectHideFlags: 0
@@ -1264,7 +1306,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAchieved: 0
-  text: have at least 200 in eco
+  text: finish with more than 150 in comfort
 --- !u!1 &544913856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,7 +1390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAchieved: 0
-  text: spend 20 secs in the kitchen
+  text: spend 30 secs in bedroom
 --- !u!1 &697102228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1457,8 +1499,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b180d59761ffea4693ea401582a3576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAchieved: 1
-  text: increase your eco for 200
+  isAchieved: 0
+  text: finish with at least 100 in eco
 --- !u!1 &800164323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1649,6 +1691,48 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 886563638}
+--- !u!1 &979701917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 979701918}
+  - component: {fileID: 979701919}
+  m_Layer: 0
+  m_Name: Objective1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &979701918
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979701917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1132667413}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &979701919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979701917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b180d59761ffea4693ea401582a3576, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isAchieved: 0
+  text: gain at least 50 in eco
 --- !u!1 &1013193177
 GameObject:
   m_ObjectHideFlags: 0
@@ -2267,6 +2351,52 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1132667411
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1132667413}
+  - component: {fileID: 1132667412}
+  m_Layer: 0
+  m_Name: Level3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1132667412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1132667411}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9396b2745e7064fbba4733464dfb8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectives:
+  - {fileID: 0}
+  - {fileID: 0}
+  levelObjectivesText: {fileID: 0}
+--- !u!4 &1132667413
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1132667411}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 979701918}
+  - {fileID: 203675697}
+  m_Father: {fileID: 1880057108}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1171405821
 GameObject:
@@ -3188,8 +3318,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b180d59761ffea4693ea401582a3576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAchieved: 1
-  text: have at least 300 money
+  isAchieved: 0
+  text: gain at least 200 money
 --- !u!114 &1573890217
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3979,6 +4109,7 @@ MonoBehaviour:
   levelObjectives:
   - {fileID: 326347097}
   - {fileID: 2096624944}
+  - {fileID: 1132667412}
 --- !u!4 &1880057108
 Transform:
   m_ObjectHideFlags: 0
@@ -3991,6 +4122,7 @@ Transform:
   m_Children:
   - {fileID: 326347096}
   - {fileID: 2096624945}
+  - {fileID: 1132667413}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
