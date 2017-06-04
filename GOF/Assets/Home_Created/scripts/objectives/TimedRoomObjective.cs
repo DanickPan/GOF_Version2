@@ -10,7 +10,8 @@ public class TimedRoomObjective : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		
+	public bool check()
+	{
+		return false;
 	}
 }

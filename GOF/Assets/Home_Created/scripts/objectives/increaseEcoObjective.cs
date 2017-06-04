@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class increaseEcoObjective : MonoBehaviour {
+public class IncreaseEcoObjective : MonoBehaviour {
 
 	public int incrementValue;
 	public EcoController ecoController;
@@ -12,7 +12,7 @@ public class increaseEcoObjective : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		startValue = ecoController.getValue ();
+		startValue = (int)ecoController.getValue ();
 	}
 
 	public bool check()

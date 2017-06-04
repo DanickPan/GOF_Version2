@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class minimumValueObjective : MonoBehaviour {
+public class MinimumComfortObjective : MonoBehaviour {
 
+	public int minimumValue;
+
+	public ConfortController confortController;
 	// Use this for initialization
 	void Start () {
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
-		
+	public bool check()
+	{
+		if (confortController.getValue () < minimumValue) 
+		{
+			return false;
+		}
+		return true;
 	}
 }

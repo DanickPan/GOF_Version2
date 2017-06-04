@@ -338,21 +338,7 @@ RectTransform:
   m_PrefabParentObject: {fileID: 22402318, guid: 21a152d74cc659344a0a5b28b43a5254,
     type: 2}
   m_PrefabInternal: {fileID: 19728835}
---- !u!114 &87268883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47b088a86708e049be2af52f7e7c204, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: EndScreen
-  startingPointInLoadedScene: StartingPoint
-  playerSaveData: {fileID: 11400000, guid: b622814b449dbef46a8e2dc95c069c71, type: 2}
---- !u!114 &99786932
+--- !u!114 &85944964
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -363,7 +349,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: 'Be aware of your ecology '
+  message: Eco down ...
   textColor: {r: 1, g: 1, b: 1, a: 1}
   delay: 0
 --- !u!1 &102879798
@@ -451,6 +437,20 @@ MonoBehaviour:
   max_Health: 100
   cur_Health: 0
   confortBar: {fileID: 354144622}
+--- !u!114 &112671391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: Low eco !
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  delay: 0
 --- !u!1 &161955744
 GameObject:
   m_ObjectHideFlags: 0
@@ -479,8 +479,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1578973528}
-  - {fileID: 1043076304}
+  - {fileID: 1023774134}
+  - {fileID: 574582515}
 --- !u!4 &161955746
 Transform:
   m_ObjectHideFlags: 0
@@ -645,7 +645,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1934549096}
+  - {fileID: 1374111174}
 --- !u!1 &269108186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1065,8 +1065,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   barModifier: {fileID: 326792304}
   MAX: 200
-  lowReaction: {fileID: 1585424233}
-  veryLowReaction: {fileID: 1499309964}
+  lowReaction: {fileID: 0}
+  veryLowReaction: {fileID: 0}
   noMoreReaction: {fileID: 1900808164}
 --- !u!1 &353158844
 GameObject:
@@ -1183,20 +1183,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 354144622}
---- !u!114 &377538849
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: You feel bad..
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
 --- !u!1 &422606731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1348,7 +1334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1797527487}
+  - {fileID: 1402623423}
 --- !u!1 &562933523
 GameObject:
   m_ObjectHideFlags: 0
@@ -1391,6 +1377,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAchieved: 0
   text: spend 30 secs in bedroom
+--- !u!114 &574582515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47b088a86708e049be2af52f7e7c204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: EndScreen
+  startingPointInLoadedScene: starting point
+  playerSaveData: {fileID: 11400000, guid: b622814b449dbef46a8e2dc95c069c71, type: 2}
 --- !u!1 &697102228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,6 +1501,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAchieved: 0
   text: finish with at least 100 in eco
+--- !u!114 &730007092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47b088a86708e049be2af52f7e7c204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: EndScreen
+  startingPointInLoadedScene: starting point
+  playerSaveData: {fileID: 11400000, guid: b622814b449dbef46a8e2dc95c069c71, type: 2}
 --- !u!1 &800164323
 GameObject:
   m_ObjectHideFlags: 0
@@ -1616,7 +1630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 377538849}
+  - {fileID: 1922217571}
 --- !u!1 &886563638
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,6 +1705,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 886563638}
+--- !u!114 &916351173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e47b088a86708e049be2af52f7e7c204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneName: EndScreen
+  startingPointInLoadedScene: starting point
+  playerSaveData: {fileID: 11400000, guid: b622814b449dbef46a8e2dc95c069c71, type: 2}
 --- !u!1 &979701917
 GameObject:
   m_ObjectHideFlags: 0
@@ -1733,6 +1761,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAchieved: 0
   text: gain at least 50 in eco
+--- !u!114 &989484751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: bankrupt ...
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  delay: 0
 --- !u!1 &1013193177
 GameObject:
   m_ObjectHideFlags: 0
@@ -1804,7 +1846,7 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1013193177}
---- !u!114 &1043076304
+--- !u!114 &1023774134
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1812,12 +1854,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47b088a86708e049be2af52f7e7c204, type: 3}
+  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: EndScreen
-  startingPointInLoadedScene: StartingPoint
-  playerSaveData: {fileID: 11400000, guid: b622814b449dbef46a8e2dc95c069c71, type: 2}
+  message: you're depressed ..
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  delay: 0
 --- !u!1 &1055202243
 GameObject:
   m_ObjectHideFlags: 0
@@ -2380,9 +2422,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   objectives:
-  - {fileID: 0}
-  - {fileID: 0}
-  levelObjectivesText: {fileID: 0}
+  - {fileID: 979701919}
+  - {fileID: 203675698}
+  levelObjectivesText: {fileID: 1340745750}
 --- !u!4 &1132667413
 Transform:
   m_ObjectHideFlags: 0
@@ -2426,8 +2468,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 2142564894}
-  - {fileID: 1213519285}
+  - {fileID: 989484751}
+  - {fileID: 730007092}
 --- !u!4 &1171405823
 Transform:
   m_ObjectHideFlags: 0
@@ -2441,20 +2483,6 @@ Transform:
   m_Father: {fileID: 326792305}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1213519285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e47b088a86708e049be2af52f7e7c204, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  sceneName: EndScreen
-  startingPointInLoadedScene: StartingPoint
-  playerSaveData: {fileID: 11400000, guid: b622814b449dbef46a8e2dc95c069c71, type: 2}
 --- !u!1 &1241324392
 GameObject:
   m_ObjectHideFlags: 0
@@ -2612,20 +2640,6 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1249856014}
---- !u!114 &1310773024
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Careful, cops are on the way !
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
 --- !u!1 &1340745748
 GameObject:
   m_ObjectHideFlags: 0
@@ -2887,6 +2901,48 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1364782371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: very low on money !
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  delay: 0
+--- !u!114 &1374111174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: very low on comfort !
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  delay: 0
+--- !u!114 &1402623423
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: low on money !
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  delay: 0
 --- !u!1001 &1489391631
 Prefab:
   m_ObjectHideFlags: 0
@@ -3194,7 +3250,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1310773024}
+  - {fileID: 1662929306}
 --- !u!1 &1517158376
 GameObject:
   m_ObjectHideFlags: 0
@@ -3320,34 +3376,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAchieved: 0
   text: gain at least 200 money
---- !u!114 &1573890217
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Hands up !
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
---- !u!114 &1578973528
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Burnout !
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
 --- !u!1 &1582185099
 GameObject:
   m_ObjectHideFlags: 0
@@ -3457,7 +3485,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 99786932}
+  - {fileID: 112671391}
 --- !u!1 &1585574801
 GameObject:
   m_ObjectHideFlags: 0
@@ -3668,6 +3696,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1618604381}
+--- !u!114 &1662929306
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  message: very low on Eco !
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  delay: 0
 --- !u!1 &1696301894
 GameObject:
   m_ObjectHideFlags: 0
@@ -3857,7 +3899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 2080182304}
+  - {fileID: 1364782371}
 --- !u!1 &1727760003
 GameObject:
   m_ObjectHideFlags: 0
@@ -3982,20 +4024,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1797527487
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: You spend too much money !
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
 --- !u!1 &1799123295
 GameObject:
   m_ObjectHideFlags: 0
@@ -4188,8 +4216,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reactions:
-  - {fileID: 1573890217}
-  - {fileID: 87268883}
+  - {fileID: 85944964}
+  - {fileID: 916351173}
 --- !u!4 &1900808165
 Transform:
   m_ObjectHideFlags: 0
@@ -4203,7 +4231,7 @@ Transform:
   m_Father: {fileID: 326792305}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1934549096
+--- !u!114 &1922217571
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -4214,7 +4242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: You're depressed ...
+  message: low on comfort !
   textColor: {r: 1, g: 1, b: 1, a: 1}
   delay: 0
 --- !u!1 &1990360983
@@ -4324,20 +4352,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224518555037052776, guid: 897a6a4b74b6cad43a977240aacea884,
     type: 2}
   m_PrefabInternal: {fileID: 1489391631}
---- !u!114 &2080182304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: You are poor ...
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0
 --- !u!1 &2096624943
 GameObject:
   m_ObjectHideFlags: 0
@@ -4458,17 +4472,3 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2105933693}
---- !u!114 &2142564894
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441f1d9bda3ac004a83d78b33a003d79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  message: Bankrupt !
-  textColor: {r: 1, g: 1, b: 1, a: 1}
-  delay: 0

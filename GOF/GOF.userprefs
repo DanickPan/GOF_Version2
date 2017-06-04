@@ -1,17 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\objectives\IncreaseMoneyObjective.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\Editor\ReactionCollectionEditor.cs">
     <Files>
-      <File FileName="Assets\Home_Created\scripts\WorkManagement\WorkManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\RoomManagement\TimedKitchenUsage.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\RoomManagement\TimedBathroomUsage.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\BarsControl\BarModifier.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Reactions\Reactions\ImmediateReactions\KitchenUsageReaction.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Levels\Objective.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Levels\LevelManagement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Levels\LevelObjective.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\objectives\increaseEcoObjective.cs" Line="25" Column="3" />
-      <File FileName="Assets\Home_Created\scripts\objectives\IncreaseMoneyObjective.cs" Line="8" Column="40" />
+      <File FileName="Assets\Home_Created\scripts\objectives\MinimumEcoObjective.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\objectives\IncreaseEcoObjective.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\objectives\MinimumComfortObjective.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\objectives\TimedRoomObjective.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\SceneControl\SceneController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Editor\ReactionCollectionEditor.cs" Line="45" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

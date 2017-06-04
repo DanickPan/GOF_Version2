@@ -2,15 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class minimumEcoObjective : MonoBehaviour {
+public class MinimumEcoObjective : MonoBehaviour {
+
+	public int minimumValue;
+
+	public EcoController ecoController;
 
 	// Use this for initialization
 	void Start () {
-		
+
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+	public bool check()
+	{
+		if (ecoController.getValue () < minimumValue) 
+		{
+			return false;
+		}
+		return true;
 	}
 }

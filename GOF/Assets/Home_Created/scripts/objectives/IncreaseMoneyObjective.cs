@@ -12,7 +12,7 @@ public class IncreaseMoneyObjective : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		startValue = moneyController.getValue ();
+		startValue = (int)moneyController.getValue ();
 	}
 
 	public bool check()
