@@ -1784,7 +1784,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -1
+  m_Text: 0
 --- !u!222 &82755677
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2608,7 +2608,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -2
+  m_Text: -1
 --- !u!222 &135388255
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4342,7 +4342,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 0
 --- !u!222 &252281863
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4499,7 +4499,7 @@ MonoBehaviour:
   m_MinValue: -3
   m_MaxValue: 3
   m_WholeNumbers: 1
-  m_Value: -1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -4978,7 +4978,7 @@ MonoBehaviour:
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 0.8333333
+  m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!222 &290580646
@@ -5256,7 +5256,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 1
 --- !u!222 &300028634
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7246,7 +7246,7 @@ MonoBehaviour:
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 0.33333334
+  m_FillAmount: 0.5
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!222 &435271788
@@ -10325,7 +10325,7 @@ MonoBehaviour:
   m_MinValue: -3
   m_MaxValue: 3
   m_WholeNumbers: 1
-  m_Value: 2
+  m_Value: 3
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -10620,7 +10620,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -1
+  m_Text: -2
 --- !u!222 &654525907
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -17037,7 +17037,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -1
+  m_Text: 0
 --- !u!222 &1019080410
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18886,7 +18886,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: -1
 --- !u!222 &1119663232
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -21398,7 +21398,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -3
+  m_Text: -2
 --- !u!222 &1263203860
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -22691,7 +22691,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -1
+  m_Text: 0
 --- !u!222 &1349285211
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24630,7 +24630,7 @@ MonoBehaviour:
   m_MinValue: -3
   m_MaxValue: 3
   m_WholeNumbers: 1
-  m_Value: -1
+  m_Value: 0
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -24681,7 +24681,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -2
+  m_Text: -1
 --- !u!222 &1461751906
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28072,7 +28072,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -1
+  m_Text: 0
 --- !u!222 &1652758615
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -28383,7 +28383,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: -1
+  m_Text: 0
 --- !u!222 &1669475258
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -31669,7 +31669,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 0
-  m_Text: 2
+  m_Text: 1
 --- !u!114 &1855404664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33522,7 +33522,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 0
+  m_Text: -1
 --- !u!222 &1950317942
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -34116,7 +34116,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 2
+  m_Text: 1
 --- !u!222 &1969287795
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -35721,7 +35721,7 @@ MonoBehaviour:
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 1
-  m_FillAmount: 0.33333334
+  m_FillAmount: 0.5
   m_FillClockwise: 1
   m_FillOrigin: 0
 --- !u!222 &2046806118
