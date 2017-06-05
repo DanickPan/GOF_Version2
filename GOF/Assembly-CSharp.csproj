@@ -51,6 +51,7 @@
      <Compile Include="Assets\Home_Created\scripts\BarsControl\EcoController.cs" />
      <Compile Include="Assets\Home_Created\scripts\BarsControl\Modifier.cs" />
      <Compile Include="Assets\Home_Created\scripts\BarsControl\MoneyController.cs" />
+     <Compile Include="Assets\Home_Created\scripts\BarsControl\TextModifier.cs" />
      <Compile Include="Assets\Home_Created\scripts\CameraControl\CameraConfig.cs" />
      <Compile Include="Assets\Home_Created\scripts\ChangeText.cs" />
      <Compile Include="Assets\Home_Created\scripts\Conditions\AllConditions.cs" />

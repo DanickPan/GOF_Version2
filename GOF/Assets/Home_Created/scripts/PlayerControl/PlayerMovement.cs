@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
 
 	private BarModifier barModifier;
 	private WorkManager workManager;
+	private TimedKitchenUsage kitchenUsage;
+	private TimedBathroomUsage bathroomUsage;
 
 	private void Start()
 	{
@@ -120,7 +122,14 @@ public class PlayerMovement : MonoBehaviour
 		{
 			workManager.workEnd ();
 		}
-
+		if (bathroomUsage.isOn ()) 
+		{
+			bathroomUsage.bathroomUsageEnd ();
+		}
+		if (kitchenUsage.isOn ()) 
+		{
+			kitchenUsage.kitchenUsageEnd ();
+		}
 		currentInteractable = null;
 
 		PointerEventData pData = (PointerEventData)data;
