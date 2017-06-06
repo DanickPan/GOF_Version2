@@ -38,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
 	{
 		barModifier = FindObjectOfType<BarModifier>();
 		workManager = FindObjectOfType<WorkManager> ();
+		kitchenUsage = FindObjectOfType<TimedKitchenUsage> ();
+		bathroomUsage = FindObjectOfType<TimedBathroomUsage>();
 
 		agent.updateRotation = false; //we'll do that ourselves
 

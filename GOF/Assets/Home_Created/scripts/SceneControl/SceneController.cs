@@ -13,7 +13,8 @@ public class SceneController : MonoBehaviour
 {
     public event Action BeforeSceneUnload;          // Event delegate that is called just before a scene is unloaded.
     public event Action AfterSceneLoad;             // Event delegate that is called just after a scene is loaded.
-	public string shopSceneName;
+	public string shopSceneName = "shop_scene";
+	public string endScreenName = "EndScreen";
 
     public CanvasGroup faderCanvasGroup;            // The CanvasGroup that controls the Image used for fading to black.
     public float fadeDuration = 1f;                 // How long it should take to fade to and from black.
@@ -97,14 +98,19 @@ public class SceneController : MonoBehaviour
         SceneManager.SetActiveScene (newlyLoadedScene);
 		cameraConfig = FindObjectOfType<CameraConfig> ();
 		loadCameraConfig (cameraConfig);
+
 		if (sceneName == shopSceneName) {
 			shopCanvasDisabler.disableObjectives ();
-		} 
+		} else if (sceneName == endScreenName) 
+		{
+			shopCanvasDisabler.disableCanvas ();
+		}
 		else 
 		{
-			if (shopCanvasDisabler.isObjectivesDisabled ()) 
-			{
+			if (shopCanvasDisabler.isObjectivesDisabled ()) {
 				shopCanvasDisabler.enableObjectives ();
+			} else if (shopCanvasDisabler.isDisabled ()) {
+				shopCanvasDisabler.enableCanvas ();
 			}
 
 		}
