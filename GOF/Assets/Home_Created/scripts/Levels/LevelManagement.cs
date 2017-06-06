@@ -10,7 +10,8 @@ public class LevelManagement : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
 	{
-		levelChoice = 1;
+		levelChoice = 0;
+		levelObjectives [0].unlock ();
 		levelObjectives [0].display();
 	}
 
@@ -32,6 +33,19 @@ public class LevelManagement : MonoBehaviour {
 		}
 
 		levelObjectives [levelChoice].display ();
+	}
+
+	public bool checkLevelObjectivesAchieved()
+	{
+		return levelObjectives [levelChoice].checkObjectives ();
+	}
+	public bool checkUnlocked()
+	{
+		return levelObjectives [levelChoice].checkUnlocked ();
+	}
+	public void unlockNextLevel()
+	{
+		levelObjectives [levelChoice + 1].unlock ();
 	}
 	
 

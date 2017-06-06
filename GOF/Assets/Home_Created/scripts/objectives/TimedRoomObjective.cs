@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TimedRoomObjective : MonoBehaviour {
+public class TimedRoomObjective : ObjectiveInterface {
 
 	// Use this for initialization
 	void Start () {
@@ -10,7 +10,7 @@ public class TimedRoomObjective : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	public bool check()
+	override public bool check()
 	{
 		return false;
 	}

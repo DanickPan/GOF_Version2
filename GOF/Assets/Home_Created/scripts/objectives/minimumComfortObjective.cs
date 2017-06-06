@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MinimumComfortObjective : MonoBehaviour {
+public class MinimumComfortObjective : ObjectiveInterface {
 
 	public int minimumValue;
 
@@ -12,7 +12,7 @@ public class MinimumComfortObjective : MonoBehaviour {
 		
 	}
 	
-	public bool check()
+	override public bool check()
 	{
 		if (confortController.getValue () < minimumValue) 
 		{

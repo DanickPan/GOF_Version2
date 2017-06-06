@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IncreaseMoneyObjective : MonoBehaviour {
+public class IncreaseMoneyObjective : ObjectiveInterface {
 
 	public int incrementValue;
 	public MoneyController moneyController;
@@ -15,7 +15,7 @@ public class IncreaseMoneyObjective : MonoBehaviour {
 		startValue = (int)moneyController.getValue ();
 	}
 
-	public bool check()
+	override public bool check()
 	{
 		if (moneyController.getValue () - startValue < incrementValue) 
 		{

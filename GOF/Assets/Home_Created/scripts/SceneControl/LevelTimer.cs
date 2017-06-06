@@ -5,11 +5,18 @@ using UnityEngine;
 public class LevelTimer : MonoBehaviour {
 
 	public float targetTime;
-	public ReactionCollection timeUp;
+	public ReactionCollection timeUpObjectivesAchieved;
+	public ReactionCollection timeUpObjectivesFailed;
 	public ReactionCollection left30;
 	public ReactionCollection left20;
 	public ReactionCollection left10;
-	
+
+	private LevelManagement levelManagement;
+
+	void Start()
+	{
+		levelManagement = FindObjectOfType<LevelManagement> ();
+	}
 	void Update () 
 	{
 		targetTime -= Time.deltaTime;
@@ -33,7 +40,12 @@ public class LevelTimer : MonoBehaviour {
 	}
 	private void timerEnded()
 	{
-		timeUp.React();
+		if (levelManagement.checkLevelObjectivesAchieved ()) {
+			timeUpObjectivesAchieved.React ();
+			levelManagement.unlockNextLevel ();
+		} else {
+			timeUpObjectivesFailed.React ();
+		}
 	}
 	private void timeLeft30()
 	{

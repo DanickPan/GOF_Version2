@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class IncreaseEcoObjective : MonoBehaviour {
+public class IncreaseEcoObjective : ObjectiveInterface {
 
 	public int incrementValue;
 	public EcoController ecoController;
@@ -15,7 +15,7 @@ public class IncreaseEcoObjective : MonoBehaviour {
 		startValue = (int)ecoController.getValue ();
 	}
 
-	public bool check()
+	override public bool check()
 	{
 		if (ecoController.getValue () - startValue < incrementValue) 
 		{

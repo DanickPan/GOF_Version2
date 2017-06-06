@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MinimumEcoObjective : MonoBehaviour {
+public class MinimumEcoObjective : ObjectiveInterface {
 
 	public int minimumValue;
 
@@ -13,7 +13,7 @@ public class MinimumEcoObjective : MonoBehaviour {
 
 	}
 
-	public bool check()
+	override public bool check()
 	{
 		if (ecoController.getValue () < minimumValue) 
 		{

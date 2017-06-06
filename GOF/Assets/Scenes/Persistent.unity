@@ -498,6 +498,7 @@ GameObject:
   m_Component:
   - component: {fileID: 203675697}
   - component: {fileID: 203675698}
+  - component: {fileID: 203675699}
   m_Layer: 0
   m_Name: Objective2
   m_TagString: Untagged
@@ -531,6 +532,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAchieved: 0
   text: finish with at least 300 in comfort
+--- !u!114 &203675699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 203675696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f4281992f93c44946b5293a9e20a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumValue: 300
+  confortController: {fileID: 326792307}
 --- !u!1 &212820479
 GameObject:
   m_ObjectHideFlags: 0
@@ -984,6 +998,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9396b2745e7064fbba4733464dfb8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectivesToCheck:
+  - {fileID: 434607204}
+  - {fileID: 1517968527}
   objectives:
   - {fileID: 434607203}
   - {fileID: 1517968526}
@@ -1167,6 +1184,7 @@ GameObject:
   m_Component:
   - component: {fileID: 434607202}
   - component: {fileID: 434607203}
+  - component: {fileID: 434607204}
   m_Layer: 0
   m_Name: Objective1
   m_TagString: Untagged
@@ -1198,8 +1216,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b180d59761ffea4693ea401582a3576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAchieved: 0
+  isAchieved: 1
   text: finish with more than 150 in comfort
+--- !u!114 &434607204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 434607201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 441f4281992f93c44946b5293a9e20a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumValue: 150
+  confortController: {fileID: 326792307}
 --- !u!1 &544913856
 GameObject:
   m_ObjectHideFlags: 0
@@ -1251,6 +1282,7 @@ GameObject:
   m_Component:
   - component: {fileID: 562933524}
   - component: {fileID: 562933525}
+  - component: {fileID: 562933526}
   m_Layer: 0
   m_Name: Objective2
   m_TagString: Untagged
@@ -1284,6 +1316,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAchieved: 0
   text: spend 30 secs in bedroom
+--- !u!114 &562933526
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 562933523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 915ea6080f2ed5f4399e76ef279760a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &574582515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1381,6 +1424,7 @@ GameObject:
   m_Component:
   - component: {fileID: 725214419}
   - component: {fileID: 725214420}
+  - component: {fileID: 725214421}
   m_Layer: 0
   m_Name: Objective1
   m_TagString: Untagged
@@ -1414,6 +1458,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAchieved: 0
   text: finish with at least 100 in eco
+--- !u!114 &725214421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 725214418}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d77895a5462023b47b9ebedb641e0802, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  minimumValue: 100
+  ecoController: {fileID: 326792309}
 --- !u!114 &730007092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1641,6 +1698,7 @@ GameObject:
   m_Component:
   - component: {fileID: 979701918}
   - component: {fileID: 979701919}
+  - component: {fileID: 979701920}
   m_Layer: 0
   m_Name: Objective1
   m_TagString: Untagged
@@ -1674,6 +1732,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAchieved: 0
   text: gain at least 50 in eco
+--- !u!114 &979701920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 979701917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff67c7b23eee45449becc33e0a18a8c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  incrementValue: 50
+  ecoController: {fileID: 326792309}
 --- !u!114 &989484751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1943,6 +2014,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9396b2745e7064fbba4733464dfb8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectivesToCheck:
+  - {fileID: 979701920}
+  - {fileID: 203675699}
   objectives:
   - {fileID: 979701919}
   - {fileID: 203675698}
@@ -2774,6 +2848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1517968525}
   - component: {fileID: 1517968526}
+  - component: {fileID: 1517968527}
   m_Layer: 0
   m_Name: Objective2
   m_TagString: Untagged
@@ -2807,6 +2882,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isAchieved: 0
   text: gain at least 200 money
+--- !u!114 &1517968527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1517968524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d650f78feffe29544890ae78a06dd0e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  incrementValue: 200
+  moneyController: {fileID: 326792308}
 --- !u!1 &1585424231
 GameObject:
   m_ObjectHideFlags: 0
@@ -3647,6 +3735,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d9396b2745e7064fbba4733464dfb8b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  objectivesToCheck:
+  - {fileID: 725214421}
+  - {fileID: 562933526}
   objectives:
   - {fileID: 725214420}
   - {fileID: 562933525}
