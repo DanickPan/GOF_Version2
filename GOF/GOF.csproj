@@ -76,18 +76,6 @@
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="Mono.Cecil">
-      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Xcode">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor.iOS.Extensions.Common">
-      <HintPath>Library\UnityAssemblies\UnityEditor.iOS.Extensions.Common.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="GOF.Plugins.csproj">
@@ -112,6 +100,7 @@
     <Compile Include="Assets\Home_Created\scripts\Levels\LevelChoiceButtons.cs" />
     <Compile Include="Assets\Home_Created\scripts\Levels\LevelManagement.cs" />
     <Compile Include="Assets\Home_Created\scripts\Levels\LevelObjective.cs" />
+    <Compile Include="Assets\Home_Created\scripts\Levels\LevelUnlockManager.cs" />
     <Compile Include="Assets\Home_Created\scripts\Levels\Objective.cs" />
     <Compile Include="Assets\Home_Created\scripts\MonoBehavior\Interactable.cs" />
     <Compile Include="Assets\Home_Created\scripts\MonoBehavior\TextManager.cs" />
@@ -148,6 +137,7 @@
     <Compile Include="Assets\Home_Created\scripts\ShopManagement\shopTest.cs" />
     <Compile Include="Assets\Home_Created\scripts\WorkManagement\WorkManager.cs" />
     <Compile Include="Assets\Home_Created\scripts\objectives\IncreaseMoneyObjective.cs" />
+    <Compile Include="Assets\Home_Created\scripts\objectives\ObjectiveInterface.cs" />
     <Compile Include="Assets\Home_Created\scripts\objectives\TimedRoomObjective.cs" />
     <Compile Include="Assets\Home_Created\scripts\objectives\increaseEcoObjective.cs" />
     <Compile Include="Assets\Home_Created\scripts\objectives\minimumComfortObjective.cs" />
