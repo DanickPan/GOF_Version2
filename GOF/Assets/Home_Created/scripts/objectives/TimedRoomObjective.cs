@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class TimedRoomObjective : ObjectiveInterface {
 
+	public int timeSpent;
+	private 
 	// Use this for initialization
-	void Start () {
+	void Start () 
+	{
 		
 	}
 	

@@ -1037,7 +1037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyDefaultModifier: 0
-  ecoDefaultModifier: -2
+  ecoDefaultModifier: -1
   comfortDefaultModifier: -2
 --- !u!4 &326792305
 Transform:
@@ -1156,6 +1156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shopSceneName: shop_scene
+  endScreenName: EndScreen
   faderCanvasGroup: {fileID: 1708470355}
   fadeDuration: 1
   startingSceneName: MainMenu
@@ -1216,7 +1217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3b180d59761ffea4693ea401582a3576, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isAchieved: 1
+  isAchieved: 0
   text: finish with more than 150 in comfort
 --- !u!114 &434607204
 MonoBehaviour:
@@ -1315,7 +1316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAchieved: 0
-  text: spend 30 secs in bedroom
+  text: finish with at least 150 in comfort
 --- !u!114 &562933526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1324,9 +1325,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 562933523}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 915ea6080f2ed5f4399e76ef279760a0, type: 3}
+  m_Script: {fileID: 11500000, guid: 441f4281992f93c44946b5293a9e20a9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  minimumValue: 150
+  confortController: {fileID: 326792307}
 --- !u!114 &574582515
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3737,7 +3740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectivesToCheck:
   - {fileID: 725214421}
-  - {fileID: 562933526}
+  - {fileID: 0}
   objectives:
   - {fileID: 725214420}
   - {fileID: 562933525}

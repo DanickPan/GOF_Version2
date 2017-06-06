@@ -10,7 +10,7 @@ public class IncreaseEcoObjective : ObjectiveInterface {
 	private int startValue;
 
 	// Use this for initialization
-	void Start () 
+	public void onLevelStart () 
 	{
 		startValue = (int)ecoController.getValue ();
 	}

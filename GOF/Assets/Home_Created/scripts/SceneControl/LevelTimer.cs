@@ -12,10 +12,16 @@ public class LevelTimer : MonoBehaviour {
 	public ReactionCollection left10;
 
 	private LevelManagement levelManagement;
+	private IncreaseEcoObjective ieo;
+	private IncreaseMoneyObjective imo;
 
 	void Start()
 	{
 		levelManagement = FindObjectOfType<LevelManagement> ();
+		ieo = FindObjectOfType<IncreaseEcoObjective> ();
+		imo = FindObjectOfType<IncreaseMoneyObjective> ();
+		ieo.onLevelStart ();
+		imo.onLevelStart ();
 	}
 	void Update () 
 	{
