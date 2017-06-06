@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2015
+# Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF.Plugins", "GOF.Plugins.csproj", "{057064CF-071A-42B3-008F-2B1D2AF46A7A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GOF", "GOF.csproj", "{4272E05D-04B1-F9C6-86BD-F92482AEE7FB}"
