@@ -1,16 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\SceneControl\LevelTimer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Home_Created\scripts\Levels\LevelObjective.cs">
     <Files>
       <File FileName="Assets\Home_Created\scripts\objectives\TimedRoomObjective.cs" Line="1" Column="1" />
       <File FileName="Assets\Home_Created\scripts\objectives\MinimumComfortObjective.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\SceneControl\LevelTimer.cs" Line="24" Column="23" />
+      <File FileName="Assets\Home_Created\scripts\SceneControl\LevelTimer.cs" Line="1" Column="1" />
       <File FileName="Assets\Home_Created\scripts\Levels\LevelManagement.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\Levels\LevelObjective.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\Levels\LevelObjective.cs" Line="29" Column="1" />
       <File FileName="Assets\Home_Created\scripts\Reactions\ReactionCollection.cs" Line="1" Column="1" />
       <File FileName="Assets\Home_Created\scripts\SceneControl\SceneController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Home_Created\scripts\objectives\IncreaseMoneyObjective.cs" Line="13" Column="30" />
-      <File FileName="Assets\Home_Created\scripts\objectives\IncreaseEcoObjective.cs" Line="13" Column="9" />
+      <File FileName="Assets\Home_Created\scripts\objectives\IncreaseMoneyObjective.cs" Line="1" Column="1" />
+      <File FileName="Assets\Home_Created\scripts\objectives\IncreaseEcoObjective.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

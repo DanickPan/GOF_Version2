@@ -1037,7 +1037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moneyDefaultModifier: 0
-  ecoDefaultModifier: -1
+  ecoDefaultModifier: -2
   comfortDefaultModifier: -2
 --- !u!4 &326792305
 Transform:
@@ -1218,7 +1218,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAchieved: 0
-  text: finish with more than 150 in comfort
+  text: finish with more than 100 in eco
 --- !u!114 &434607204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1227,11 +1227,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 434607201}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 441f4281992f93c44946b5293a9e20a9, type: 3}
+  m_Script: {fileID: 11500000, guid: d77895a5462023b47b9ebedb641e0802, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimumValue: 150
-  confortController: {fileID: 326792307}
+  minimumValue: 100
+  ecoController: {fileID: 326792309}
 --- !u!1 &544913856
 GameObject:
   m_ObjectHideFlags: 0
@@ -3740,7 +3740,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectivesToCheck:
   - {fileID: 725214421}
-  - {fileID: 0}
+  - {fileID: 562933526}
   objectives:
   - {fileID: 725214420}
   - {fileID: 562933525}
