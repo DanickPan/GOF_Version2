@@ -8852,7 +8852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc793ce859e180f488dd35de24243e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayTexte: {fileID: 0}
+  displayTexte: {fileID: 437044703}
   sliderValue: {fileID: 475638048}
 --- !u!222 &475638051
 CanvasRenderer:
@@ -14857,7 +14857,7 @@ MonoBehaviour:
     type: 2}
   modifierDescription: microWaveOven
   moneyModifierSlider: {fileID: 1669475255}
-  ecoModifierSlider: {fileID: 0}
+  ecoModifierSlider: {fileID: 1019080407}
   comfortModifierSlider: {fileID: 1855404662}
 --- !u!1 &822118798
 GameObject:
@@ -18041,7 +18041,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc793ce859e180f488dd35de24243e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayTexte: {fileID: 0}
+  displayTexte: {fileID: 656358280}
   sliderValue: {fileID: 995890910}
 --- !u!222 &995890913
 CanvasRenderer:
@@ -29699,7 +29699,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc793ce859e180f488dd35de24243e49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  displayTexte: {fileID: 0}
+  displayTexte: {fileID: 52438075}
   sliderValue: {fileID: 1614800653}
 --- !u!222 &1614800656
 CanvasRenderer:
